@@ -1,0 +1,8 @@
+  - name: create user 
+    user: 
+        name: andrew 
+        update_password: on_create 
+        state: present 
+        shell: /bin/bash 
+        group: andrewgroup
+        home: /home/andrew

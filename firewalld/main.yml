@@ -1,0 +1,5 @@
+- name: open port 80 
+  firewalld: 
+    service: httpd
+    port: 80/tcp 
+    state: enabled 
